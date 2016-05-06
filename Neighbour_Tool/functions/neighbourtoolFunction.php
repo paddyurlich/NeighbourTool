@@ -39,13 +39,13 @@ include "databaseconnection.php";
 //**********************************************
 //print the output - debug
 
-	$print_neighbour_input = false;
+	$print_neighbour_input = true;
 	
 		if ($print_neighbour_input == true) {
 			
-			echo '<pre>';
-			print_r($neighbour);
-			echo '</pre>';
+			// echo '<pre>';
+			// print_r($neighbour);
+			// echo '</pre>';
 					
 			$counts = count($neighbour);
 			//print_r($array1);	
@@ -451,7 +451,7 @@ if (mysqli_num_rows($result) > 0) {
 								
 					$sourceCellType = $result_array_sql_audit_nw_ucells[$sourceCellFLA];	
 
-					$sourceCellType_u09 = $sourceCellType['u09'];
+					$sourceCellType_u09 = $sourceCellType['u09-f1'];
 					$sourceCellType_u21_1 = $sourceCellType['u21-f1'];
 					$sourceCellType_u21_2 = $sourceCellType['u21-f2'];
 					$sourceCellType_u21_3 = $sourceCellType['u21-f3'];
