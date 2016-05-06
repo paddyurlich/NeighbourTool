@@ -167,7 +167,7 @@ function is_valid_index($index,$array) {
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Neighbour Tool</h1>
+                    <h1 class="page-header">Neighbour Tool - remove redundant</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
