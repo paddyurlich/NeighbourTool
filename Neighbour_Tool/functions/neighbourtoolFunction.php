@@ -39,7 +39,7 @@ include "databaseconnection.php";
 //**********************************************
 //print the output - debug
 
-	$print_neighbour_input = true;
+	$print_neighbour_input = false;
 	
 		if ($print_neighbour_input == true) {
 			
