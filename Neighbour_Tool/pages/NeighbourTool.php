@@ -15,56 +15,21 @@ function is_valid_index($index,$array) {
 <html lang="en">
 
 <?php include '../functions/neighbourtoolFunction.php';?>
-<?php //include '../NeighbourTool/includes/layouts/header.php';?>
-
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+
 
     <title>Neighbour Tool</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- MetisMenu CSS -->
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
-
-    <!-- Timeline CSS -->
-    <link href="../dist/css/timeline.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-
-    <!-- Morris Charts CSS -->
-    <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
- 	<link href="../NeighbourTool/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
+	<!-- jQuery --> 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="../js/fileinput.js" type="text/javascript"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
-	
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="../NeighbourTool/js/bootstrap.min.js"></script>	
-
-	<script type="text/javascript" language="javascript" src="../NeighbourTool/resources/syntax/shCore.js"></script>
-	<script type="text/javascript" language="javascript" src="../NeighbourTool/resources/demo.js"></script>
-	
-	
-    <link href="../NeighbourTool/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
-
-	<link rel="stylesheet" type="text/css" href="../NeighbourTool/resources/syntax/shCore.css">
-	<link rel="stylesheet" type="text/css" href="../NeighbourTool/resources/demo.css">
-
 
 	<!-- Data Tables Standard -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-print-1.0.3,fh-3.0.0,r-1.0.7,sc-1.3.0,se-1.0.1/datatables.min.css"/> 

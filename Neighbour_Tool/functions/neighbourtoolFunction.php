@@ -549,6 +549,9 @@ if (mysqli_num_rows($result) > 0) {
 								case "U09-1":
 									$sourceTableToUse = $result_array_Radio_UCELL;
 									break;
+								case "U09-2":
+									$sourceTableToUse = $result_array_Radio_UCELL;
+									break;
 								case "U21-1":
 									$sourceTableToUse = $result_array_Radio_UCELL;
 									break;
@@ -567,14 +570,20 @@ if (mysqli_num_rows($result) > 0) {
 								case "L18-1":
 									$sourceTableToUse = $result_array_L_CELL;
 									break;
+								case "L07-1":
+									$sourceTableToUse = $result_array_L_CELL;
+									break;
 								default:
-									echo "replace value not recognized?? ";
+									echo "Carrier replace value not recognized?? - ".$sourceCellStringRaplaceString;
 								}
 					
 					
 						switch ($neighbourCellStringRaplaceString){
 								
 								case "U09-1":
+									$neighbourTableToUse = $result_array_Radio_UCELL;
+									break;
+								case "U09-2":
 									$neighbourTableToUse = $result_array_Radio_UCELL;
 									break;
 								case "U21-1":
@@ -595,8 +604,11 @@ if (mysqli_num_rows($result) > 0) {
 								case "L18-1":
 									$neighbourTableToUse = $result_array_L_CELL;
 									break;
+								case "L07-1":
+									$neighbourTableToUse = $result_array_L_CELL;
+									break;
 								default:
-									echo "replace value not recognized?? ";
+									echo "Carrier replace value not recognized?? - ".$neighbourCellStringRaplaceString;
 								}										
 					
 					// check if replaced source cell id exists and if so assign to variable					
